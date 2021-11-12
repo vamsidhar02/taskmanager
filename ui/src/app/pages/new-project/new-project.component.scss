@@ -1,0 +1,10 @@
+
+.button{
+    letter-spacing: 1px;
+}
+.button{
+    transition: transform 0.25s ease;
+    &:active{
+        transform: scale(0.9);
+    }
+}
